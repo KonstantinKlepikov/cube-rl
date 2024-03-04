@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cube-rl"
+version = "0.1.0"
+description = "Cube problem rl research"
+authors = ["Konstantin Klepikov <oformleno@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

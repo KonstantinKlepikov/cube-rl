@@ -11,3 +11,8 @@
 - [Adding a New Environment](https://intellabs.github.io/coach/contributing/add_env.html)
 - [Экспресс-анализ метрических параметров графов](https://habr.com/ru/articles/534182/)
 - [Расстояние редактирования графа](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D1%81%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5_%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_%D0%B3%D1%80%D0%B0%D1%84%D0%B0)
+
+## Development
+
+1. Go to service folder, f.e. `cd <service-name>/<folder>` and create VSCode project by `code .`
+2. Install poery dependencies and add environment for python linting. Use `poetry config virtualenvs.in-project true` for creation of env folder inside project. Then `poetry init` (if pyproject.toml not exist) and `poetry install --no-root`.
