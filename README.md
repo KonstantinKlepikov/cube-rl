@@ -16,3 +16,5 @@
 
 1. Go to service folder, f.e. `cd <service-name>/<folder>` and create VSCode project by `code .`
 2. Install poery dependencies and add environment for python linting. Use `poetry config virtualenvs.in-project true` for creation of env folder inside project. Then `poetry init` (if pyproject.toml not exist) and `poetry install --no-root`.
+
+[tf jupyter notebooks](http://localhost:18888/)

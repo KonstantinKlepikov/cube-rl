@@ -163,3 +163,7 @@ research/
 /mkdocs
 /doxygen
 
+# research
+/research
+/Reinforcement-Learning-Algorithms-with-Python
+
